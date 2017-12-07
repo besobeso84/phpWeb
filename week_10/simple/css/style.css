@@ -1,0 +1,36 @@
+header, nav, .content, footer{
+  width: 1080px;
+  margin: auto;
+  border: solid 1px blue;
+  min-height: 30px;
+  margin-top:10px;
+}
+
+header{
+  min-height: 120px;
+}
+
+nav {
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li{
+  float: left;
+  margin-left: 10px;
+}
+
+.content {
+  min-height: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer{
+  min-height: 30px;
+}
